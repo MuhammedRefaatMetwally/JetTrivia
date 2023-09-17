@@ -8,12 +8,12 @@ plugins {
 
 android {
     namespace 'com.example.jettrivia'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.example.jettrivia"
         minSdk 24
-        targetSdk 33
+        targetSdk 34
         versionCode 1
         versionName "1.0"
 
@@ -67,8 +67,6 @@ dependencies {
 
 // Dagger - Hilt
     kapt "com.google.dagger:hilt-android-compiler:$hilt_version"
-    implementation "androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03"
-    kapt "androidx.hilt:hilt-compiler:1.0.0"
     implementation "androidx.hilt:hilt-navigation-compose:1.1.0-alpha01"
 
     //Retrofit
